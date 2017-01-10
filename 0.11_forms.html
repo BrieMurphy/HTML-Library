@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Forms, Inputs and Textarea</title>
+</head>
+<body>
+
+	<div class="form-one">
+
+		<form>
+			<!--Input is a self-closing tab -->
+			<p><label>Customer Name: <input /></label></p>
+			<p><label>Street Address: <input /></label></p>
+			<p><label>City: <input /></label></p>
+			<p><label>State: <input /></label></p>
+			<p><label>Telephone Number: <input /></label></p>
+		</form>
+
+	</div>
+
+<br />
+			<!--Fieldset creates the line/box around the form -->
+	<div class="form-two">
+		<form>
+			<fieldset>
+				<legend> Customer Information</legend>
+				<p><label>Customer Name: <input /></label></p>
+				<p><label>Street Address: <input /></label></p>
+				<p><label>City: <input /></label></p>
+				<p><label>State: <input /></label></p>
+				<p><label>Telephone Number: <input /></label></p>
+			</fieldset>
+		</form>
+	</div>
+
+<br />
+
+	<div class="form-three">
+		<form>
+			<fieldset>
+					<legend>Wicked Wicks Candles</legend>
+					<p><input type="radio" name="size" id="size1" /><label>Small</label></p>
+					<p><input type="radio" name="size" id="size2" /><label>Medium</label></p>
+					<p><input type="radio" name="size" id="size3" /><label>Large</label></p>
+			</fieldset>
+		</form>
+	</div>
+
+<br />
+
+	<div class="form-four">
+		<form>
+			<fieldset>
+				<legend>Big Rico's Pizza Topping Options</legend>
+				<p><label><input type="checkbox" name="pep" id="topping1" />Pep</label></p>
+				<p><label><input type="checkbox" name="ham" id="topping2" />Ham</label></p>
+				<p><label><input type="checkbox" name="green peppers" id="topping3" />Green Peppers</label></p>
+				<p><label><input type="checkbox" name="extra cheese" id="topping4" />Extra Cheese</label></p>
+			</fieldset>
+		</form>
+	</div>
+
+<br />
+
+	<div class="form-five">
+		<form>
+			<fieldset>
+				<p><label>Preferred Delivery Time<input type="time" min="11:00" max="21:00" steps="900"></label></p>
+				<!--steps is the incriment by which it goes up. In this case, it would be fifteen minutes -->
+				<p><label>Delivery Instructions: </label><textarea></textarea></p>
+				<p><button>Submit Order</button></p>
+			</fieldset>
+		</form>
+	</div>
+
+</body>
+</html>
